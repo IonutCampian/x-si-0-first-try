@@ -1,0 +1,25 @@
+.body {
+    margin: 0;
+}
+.board {
+    width: 33vw;
+    height: 33vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+}
+.button {
+    width: 60px;
+    height: 60px;
+    background-color: violet;
+}
+.title {
+    align-items: center;
+    color: tomato;
+    font-style: italic;
+    align-self: center;
+}
+.restart {
+    align-self: center;
+}

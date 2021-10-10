@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src = "index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class = "background">
+        <center>
+        <section class = "title">
+            <h1>TIC-TAC-TOE</h1>
+        </section>
+       <h1 id = "player" >X's Turn!</h1>
+        <div class="board">
+                <button id = "button1" class="button" onclick="putXor0one()"></button>
+                <button id = "button2" class="button" onclick="putXor0two()"></button>
+                <button id = "button3" class="button" onclick="putXor0three()"></button>
+                <button id = "button4" class="button" onclick="putXor0four()"></button>
+                <button id = "button5" class="button" onclick="putXor0five()"></button>
+                <button id = "button6" class="button" onclick="putXor0six()"></button>
+                <button id = "button7" class="button" onclick="putXor0seven()"></button>
+                <button id = "button8" class="button" onclick="putXor0eight()"></button> 
+                <button id = "button9" class="button"  onclick="putXor0nine()"></button> 
+        </div>
+        <button id = "draw", class = "restart", hidden>tie</button>
+        <button id = winnerX, class = "restart", hidden>X won!</button>
+        <button id = "winner0" class="restart", hidden>0 won!</button>
+         </center>
+         
+    </main>
+</body>
+</html>
